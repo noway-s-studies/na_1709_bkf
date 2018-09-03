@@ -17,5 +17,7 @@ class MainActivity : AppCompatActivity() {
         score = 2
         val scoreNewText = "${scoreText.replace("pont", "volt, most: ")} $score"
         Log.d("MyKotlinLOG", scoreNewText)
+
+        val car = Car("Trabant", "A4")
     }
 }
